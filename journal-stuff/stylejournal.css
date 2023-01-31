@@ -1,6 +1,19 @@
 body {
   background-color: #EDE7C6}
-  style
-  {
-    color: inherit;
+  body {
+    color: #524F41
   }
+
+
+  #container {
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+  padding: 20px;
+}
+
+#container > div {
+  height: 100px;
+  width: 100px;
+  margin: 3px;
+  border: 5px solid steelblue;
