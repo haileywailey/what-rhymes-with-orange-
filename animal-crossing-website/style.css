@@ -1,8 +1,6 @@
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
 }
-#borderimg3 {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(border.png) 30% round;
-  
+html {
+    cursor: url('pokeballnew.png'), pointer;
+}
