@@ -4,3 +4,4 @@ body {
 html {
     cursor: url('cursorfinal.png'), pointer;
 }
+.floatRight{float:right;margin-left:20px}
