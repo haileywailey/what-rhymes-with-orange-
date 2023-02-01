@@ -1,2 +1,5 @@
 body {
   background-color: #FFDD9D;}
+  html {
+      cursor: url('icon.png'), pointer;
+  }
