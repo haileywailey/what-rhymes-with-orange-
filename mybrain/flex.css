@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://media.istockphoto.com/id/988703864/video/spotlight-lighting-technique.jpg?s=640x640&k=20&c=wIYYGVMx78zGRvW_iGTNw0aSgoW_QtlK0OnUMn99dvs=)
+  background-repeat: no-repeat;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:black;
+  padding: 10px;
+}
+.grid-item {
+  background-color:yellow;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box {
+  background-color:orange;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box1 {
+  background-color:lime;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box2 {
+  background-color:hotpink;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box3 {
+  background-color:cyan;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box4 {
+  background-color:blue;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box5 {
+  background-color:orchid;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold
+  font-family:monospace;
+  text-align: center;
+}
+.box6 {
+  background-color:red;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.box7 {
+  background-color:purple;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}

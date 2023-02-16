@@ -1,0 +1,11 @@
+* {
+box-sizing: border-box;
+}
+.main-container {
+  background: lightblue;
+  padding: 20px
+}
+.item {
+  background: lightgreen;
+  border: 1px solid;
+}
