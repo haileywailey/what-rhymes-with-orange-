@@ -1,6 +1,8 @@
 body {
-  background-color: black
-}
+  background-color: black}
+  body {
+    color: black
+  }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -90,4 +92,7 @@ body {
 }
 html {
     cursor: url('drank.png'), pointer;
-}
+    html,
+    body {
+    height: 100%;
+    }
