@@ -88,3 +88,6 @@ body {
   font-family: monospace;
   text-align: center;
 }
+html {
+    cursor: url('drank.png'), pointer;
+}
