@@ -1,0 +1,66 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 1.5em);
+  color: rgba(255,255,255,.75);
+  font-family: 'VT323', monospace;
+  background-color: black;
+  border-style: dotted; border-width: medium;
+}
+.line-1{
+    position: relative;
+    top: 40%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 250%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(45) 1s 1 normal both,
+             blinkTextCursor 500ms steps(45) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.sword {
+      opacity: 0;
+      height: 100px;
+      width: 100px;
+      animation: opacityOn 5.5s normal forwards;
+      animation-delay: 1.5s;
+  }
+
+  @keyframes opacityOn {
+      0% {
+          opacity: 0;
+      }
+      25% {
+          opacity: 0;
+      }
+      50% {
+          opacity: 0;
+      }
+      75% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }

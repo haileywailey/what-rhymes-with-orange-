@@ -1,0 +1,29 @@
+body {
+background-image: url(https://i.ytimg.com/vi/sHW2H8omssY/maxresdefault.jpg);
+background-repeat: no-repeat;
+text-align: center;
+background-size: 1720px 920px
+}
+
+.words {
+  font-family: 'VT323', monospace;
+  font-style: italic;
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+  border-width: thin; border-color: white; border-style: dotted;
+  padding: 18px;
+  left: 650px;
+  width: 400px;
+  height: 47px;
+  top: 300px;
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  font: url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+
+}
+
+.epona {
+  padding-top: 500px
+}
