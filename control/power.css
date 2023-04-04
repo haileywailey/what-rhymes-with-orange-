@@ -42,8 +42,8 @@ body{
 
 .sword {
       opacity: 0;
-      height: 100px;
-      width: 100px;
+      height: 60px;
+      width: 60px;
       animation: opacityOn 5.5s normal forwards;
       animation-delay: 1.5s;
   }

@@ -9,7 +9,7 @@
   left: 610px;
   top: 400px;
   width: 500px;
-  height: 75px;
+  height: 65px;
   position: absolute;
   text-align: center;
   background-color: black;
@@ -31,7 +31,7 @@ body {
     border-width: thin; border-color: white; border-style: dotted;
     padding: 10px;
     left: 750px;
-    top: 550px;
+    top: 520px;
     width: 200px;
     height: 25px;
     position: absolute;

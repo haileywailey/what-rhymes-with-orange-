@@ -23,9 +23,10 @@ body {
   font: url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
 }
 
-.triforce {
+.mastersword {
     text-align: center;
-} 
+    transform: rotate(135deg);
+}
 
 .text3 {
   font-family: 'VT323', monospace;
