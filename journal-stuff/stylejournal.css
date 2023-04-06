@@ -12,6 +12,13 @@ body {
   padding: 20px;
 }
 
+#container2 {
+display: flex;
+justify-content: space-around;
+background-color: beige;
+padding: 20px;
+}
+
 #container > div {
   height: 100px;
   width: 100px;
