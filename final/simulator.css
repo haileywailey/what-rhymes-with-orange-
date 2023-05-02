@@ -1,0 +1,72 @@
+.box {
+  font-family: 'VT323', monospace;
+  font-style: italic;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  border-width: thin; border-color: white; border-style: dotted;
+  padding: 40px;
+  width: 70px;
+  height: 40px;
+  text-transform: lowercase;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
+  background-color: thistle;
+  font: url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+}
+
+.kk {
+  margin-left: +18vw;
+  margin-right: auto;
+  left: 320px;
+  top: 250px;
+  position: absolute;
+  margin-bottom: -27vw
+}
+
+body {
+  background-color: black;
+}
+
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 1.5em);
+  color: rgba(255,255,255,.75);
+  font-family: "lores-12", sans-serif;
+font-weight: 400;
+font-style: normal;
+  background-color: black;
+}
+.line-1{
+    position: relative;
+    top: 25%;
+    left: 18%
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 250%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2.1s steps(30) 1s 1 normal both,
+             blinkTextCursor 700ms steps(30) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9.1em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}

@@ -1,0 +1,68 @@
+body {
+  background-image: url(board.jpeg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-position: center;
+}
+
+.pin {
+  left: 800px;
+  top: 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+.text3 {
+  font-family: 'VT323', monospace;
+  font-style: italic;
+  color: purple;
+  font-weight: lighter;
+  font-size: 18px;
+  border-width: thin; border-color: purple; border-style: dotted;
+  padding: 10px;
+  left: 710px;
+  top: 690px;
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  text-align: center;
+  background-color: thistle;
+  font: url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+}
+
+.dragme {
+  position: relative;
+  width: 230px;
+  height: 350px;
+  cursor: move;
+  text-align: center;
+  justify-content: center;
+  left: 100px;
+  top: -10px;
+}
+
+.dragme {
+opacity: 0;
+height: 350px;
+width: 240px;
+animation: opacityOn 1.5s normal forwards;
+animation-delay: 2.1s;
+}
+
+@keyframes opacityOn {
+0% {
+    opacity: 0;
+}
+25% {
+    opacity: 0;
+}
+50% {
+    opacity: 0;
+}
+75% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
